@@ -1,0 +1,45 @@
+import pyautogui
+import pyperclip
+import time
+
+pyautogui.hotkey("win")
+time.sleep(2)
+pyautogui.write("league of legends")
+time.sleep(2)
+pyautogui.press("enter")
+time.sleep(25)
+
+pyautogui.position()
+time.sleep(5)
+pyautogui.moveTo(164,35)
+pyautogui.doubleClick()
+
+time.sleep(5)
+pyautogui.moveTo(285,580)
+pyautogui.click()
+
+time.sleep(2)
+pyautogui.moveTo(552,683)
+pyautogui.click()
+
+time.sleep(2)
+pyautogui.moveTo(696,680)
+pyautogui.click()
+
+time.sleep(2)
+pyautogui.moveTo(662,617)
+pyautogui.click()
+
+time.sleep(2)
+pyautogui.moveTo(735,680)
+pyautogui.click()
+
+time.sleep(2)
+pyautogui.moveTo(753,626)
+pyautogui.click()
+
+time.sleep(2)
+pyautogui.moveTo(600,673)
+pyautogui.click()
+
+
